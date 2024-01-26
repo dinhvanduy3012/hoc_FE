@@ -1,0 +1,10 @@
+ thead tr th{
+    background-color:green;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    padding-right: 18px;
+}
