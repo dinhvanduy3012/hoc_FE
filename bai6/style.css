@@ -1,0 +1,82 @@
+.header {
+    background: blue;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+
+body {
+    margin:0;
+}
+
+.one {
+    margin: 0;
+}
+
+.two {
+    margin-top: 10px;
+}
+
+.dinh {
+    background: red;
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+.duy {
+    background: orange;
+    width: 30%;
+    height: 500px;
+    float: right;
+}
+
+.bo {
+    clear: both;
+}
+
+.box {
+    background: orchid;
+    height: 150px;
+    width: calc(25% - 7.5px);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box:nth-child(4){
+    margin-right: 0;
+}
+
+.footer {
+    background: green;
+    width: 100%;
+    padding:20px;
+}
+
+@media screen and (max-width: 768px) {
+.dinh {
+    width: 100%;
+}
+.duy {
+    width: 100%;
+}
+.box {
+    width: calc(50% - 5px);
+}
+.box:nth-child(2){
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 480px) {
+.dinh {
+    width: 100%;
+}
+.duy {
+    width: 100%;
+}
+.box{
+    margin-right: 0;
+    width: 100%;
+}
+}
