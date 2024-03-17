@@ -236,3 +236,21 @@
     margin-bottom:15px ;
 }
 
+.section-two .inner-box .inner-sale {
+    font-size: 40px;
+    color: var(--color-two);
+    font-weight: 600;
+}
+
+.section-two .inner-box .inner-price-new {
+    font-size: 30px;
+    color: var(--color-two);
+    font-weight: 600;
+}
+
+.section-two .inner-box .inner-price-old {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: line-through;
+}
